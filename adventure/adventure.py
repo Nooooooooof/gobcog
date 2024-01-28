@@ -844,11 +844,11 @@ class Adventure(
                 new_challenge = _("Transcended {}").format(challenge.replace("Ascended", ""))
             no_monster = False
             if monster_roster[challenge]["boss"]:
-                timer = 60 * 5
+                timer = 60 * 2
                 self.bot.dispatch("adventure_boss", ctx)
                 text = box(_("\n [{} Alarm!]").format(new_challenge), lang="css")
             elif monster_roster[challenge]["miniboss"]:
-                timer = 60 * 3
+                timer = 60 * 2
                 self.bot.dispatch("adventure_miniboss", ctx)
             else:
                 timer = 60 * 2
@@ -864,7 +864,7 @@ class Adventure(
             if transcended:
                 # Hide Transcended on Easy mode
                 new_challenge = challenge.replace("Ascended", "")
-            timer = 60 * 3
+            timer = 60 * 2
             no_monster = random.randint(0, 100) == 25
         self._sessions[ctx.guild.id] = GameSession(
             ctx=ctx,
@@ -943,7 +943,7 @@ class Adventure(
                     adventure_msg = await ctx.send(embed=embed)
                 else:
                     adventure_msg = await ctx.send(f"{adventure_msg}\n{dragon_text}")
-                timeout = 60 * 5
+                timeout = 60 * 2
 
             elif session.miniboss:
                 if use_embeds:
@@ -954,7 +954,7 @@ class Adventure(
                     adventure_msg = await ctx.send(embed=embed)
                 else:
                     adventure_msg = await ctx.send(f"{adventure_msg}\n{basilisk_text}")
-                timeout = 60 * 3
+                timeout = 60 * 2
             else:
                 if use_embeds:
                     embed.description = f"{adventure_msg}\n{normal_text}"
