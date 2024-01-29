@@ -36,7 +36,7 @@
         {"parts": 7, "att": 0, "cha": 0, "int": 0, "dex": 0, "luck": 0, "statmult": 1.1, "xpmult": 1.4, "cpmult": 1.0}
     ],
     "The Groovinator": [
-        {"parts": 2, "att": 0, "cha": 30, "int": 0, "dex": 0, "luck": 0, "statmult": 1.1, "xpmult": 1.1, "cpmult": 1.0}
+        {"parts": 2, "att": 0, "cha": 0, "int": 0, "dex": 0, "luck": 100000000000, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0}
     ],
     "The Paninator": [
         {"parts": 4, "att": 1, "cha": 1, "int": 1, "dex": 1, "luck": 1, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
@@ -52,14 +52,14 @@
         {"parts": 8, "att": 21, "cha": 0, "int": 21, "dex": 0, "luck": 6, "statmult": 1.05, "xpmult": 1.2, "cpmult": 1.0}
     ],
     "Badass Bop": [
-        {"parts": 2,"att": 0, "cha": 0, "int": 0, "dex": 100000000000, "luck": 0, "statmult": 0.0, "xpmult": 1.0, "cpmult": 1.0}
+        {"parts": 2,"att": 0, "cha": 0, "int": 0, "dex": 100000000000, "luck": 0, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0}
     ],
     "Dreadnaughts Battlegear": [
         {"parts": 4, "att": 100, "cha": 0, "int": 100, "dex": 0, "luck": 0, "statmult": 1.05, "xpmult": 1.15, "cpmult": 1.0},
         {"parts": 9, "att": 125, "cha": 0, "int": 100, "dex": 0, "luck": 0, "statmult": 1.05, "xpmult": 1.15, "cpmult": 1.0}
     ],
     "Fangs of the Father": [
-        {"parts": 2, "att": 10, "cha": 300, "int": 5, "dex": 100, "luck": 50, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0}
+        {"parts": 2, "att": 50, "cha": 50, "int": 50, "dex": 50, "luck": 50, "statmult": 1.2, "xpmult": 1.0, "cpmult": 0.75}
     ],
     "Titanic Empowerment": [
         {"parts": 2, "att": 160, "int": -40, "dex": 80, "cha": 300, "luck": 50, "statmult": 1.1, "xpmult": 1.2, "cpmult": 1.0}
