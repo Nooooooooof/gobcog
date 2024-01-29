@@ -892,12 +892,38 @@ class ClassAbilities(AdventureMixin):
                     c.heroclass["cooldown"] = time.time() + cooldown_time
 
                     await self.config.user(ctx.author).set(await c.to_json(ctx, self.config))
-                    await smart_embed(
-                        ctx,
-                        _("{skill} {c} is focusing all of their energy... {skill}").format(
-                            c=bold(ctx.author.display_name),
-                            skill=self.emojis.skills.wizzard,
-                        ),
+                    textroll = random.randint (1,4)
+                    if textroll == 1:
+                        await smart_embed(
+                            ctx,
+                            _("{skill} {c} is focusing all of their energy... {skill}").format(
+                                c=bold(ctx.author.display_name),
+                                skill=self.emojis.skills.wizzard,
+                            ),
+                    )
+                    if textroll == 2:
+                        await smart_embed(
+                            ctx,
+                            _("{skill} Casting circles begin to appear around {c}... {skill}").format(
+                                c=bold(ctx.author.display_name),
+                                skill=self.emojis.skills.wizzard,
+                            ),
+                    )
+                    if textroll == 3:
+                        await smart_embed(
+                            ctx,
+                            _("{skill} {c} begins to chant in an arcane tongue... {skill}").format(
+                                c=bold(ctx.author.display_name),
+                                skill=self.emojis.skills.wizzard,
+                            ),
+                    )
+                    if textroll == 4:
+                        await smart_embed(
+                            ctx,
+                            _("{skill} {c}'s eyes glow as the heavens rumble... {skill}").format(
+                                c=bold(ctx.author.display_name),
+                                skill=self.emojis.skills.wizzard,
+                            ),
                     )
                 else:
                     cooldown_time = c.heroclass["cooldown"] - time.time()
