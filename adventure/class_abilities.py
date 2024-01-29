@@ -830,7 +830,7 @@ class ClassAbilities(AdventureMixin):
                     c.heroclass["ability"] = True
                     c.heroclass["cooldown"] = time.time() + cooldown_time
                     await self.config.user(ctx.author).set(await c.to_json(ctx, self.config))
-                    textroll = random.randint (1,2)
+                    textroll = random.randint (1,4)
                     if textroll == 1:
                         await smart_embed(
                             ctx,
@@ -842,7 +842,23 @@ class ClassAbilities(AdventureMixin):
                     elif textroll == 2:
                         await smart_embed(
                             ctx,
-                            _("{skill} {c}'s blood surges as they enter a frenzy... {skill}").format(
+                            _("{skill} {c}'s muscles bulge as they enter a frenzy... {skill}").format(
+                                c=bold(ctx.author.display_name),
+                                skill=self.emojis.skills.berserker
+                            ), 
+                    )
+                    elif textroll == 3:
+                        await smart_embed(
+                            ctx,
+                            _("{skill} {c}'s ancestral blood begins to simmer... {skill}").format(
+                                c=bold(ctx.author.display_name),
+                                skill=self.emojis.skills.berserker
+                            ), 
+                    )
+                    elif textroll == 4:
+                        await smart_embed(
+                            ctx,
+                            _("{skill} Everyone shudders as {c} let's out a blood-curdling scream... {skill}").format(
                                 c=bold(ctx.author.display_name),
                                 skill=self.emojis.skills.berserker
                             ), 
@@ -901,7 +917,7 @@ class ClassAbilities(AdventureMixin):
                                 skill=self.emojis.skills.wizzard,
                             ),
                     )
-                    if textrollA == 2:
+                    elif textrollA == 2:
                         await smart_embed(
                             ctx,
                             _("{skill} Casting circles begin to appear around {c}... {skill}").format(
@@ -909,7 +925,7 @@ class ClassAbilities(AdventureMixin):
                                 skill=self.emojis.skills.wizzard,
                             ),
                     )
-                    if textrollA == 3:
+                    elif textrollA == 3:
                         await smart_embed(
                             ctx,
                             _("{skill} {c} begins to chant in an arcane tongue... {skill}").format(
@@ -917,7 +933,7 @@ class ClassAbilities(AdventureMixin):
                                 skill=self.emojis.skills.wizzard,
                             ),
                     )
-                    if textrollA == 4:
+                    elif textrollA == 4:
                         await smart_embed(
                             ctx,
                             _("{skill} {c}'s eyes glow as the heavens rumble... {skill}").format(
@@ -968,11 +984,34 @@ class ClassAbilities(AdventureMixin):
                     c.heroclass["ability"] = True
                     c.heroclass["cooldown"] = time.time() + cooldown_time
                     await self.config.user(ctx.author).set(await c.to_json(ctx, self.config))
-                    await smart_embed(
-                        ctx,
-                        _("{skill} {c} is whipping up a performance... {skill}").format(
-                            c=bold(ctx.author.display_name), skill=self.emojis.skills.bard
-                        ),
+                    textrollB = random.randint (1,4)
+                    if textrollB == 1:
+                        await smart_embed(
+                            ctx,
+                            _("{skill} {c} is whipping up a performance... {skill}").format(
+                                c=bold(ctx.author.display_name), skill=self.emojis.skills.bard
+                            ),
+                    )
+                    elif textrollB == 2:
+                        await smart_embed(
+                            ctx,
+                            _("{skill} Sweet melodies begin to drift out of {c}'s lute... {skill}").format(
+                                c=bold(ctx.author.display_name), skill=self.emojis.skills.bard
+                            ),
+                    )
+                    elif textrollB == 3:
+                        await smart_embed(
+                            ctx,
+                            _("{skill} {c} begins to craft a witty insult... {skill}").format(
+                                c=bold(ctx.author.display_name), skill=self.emojis.skills.bard
+                            ),
+                    )    
+                    elif textrollB == 4:
+                        await smart_embed(
+                            ctx,
+                            _("{skill} {c} begins to gather inspiration for a sick burn... {skill}").format(
+                                c=bold(ctx.author.display_name), skill=self.emojis.skills.bard
+                            ),
                     )
                 else:
                     cooldown_time = c.heroclass["cooldown"] - time.time()
