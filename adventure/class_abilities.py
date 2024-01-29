@@ -614,7 +614,7 @@ class ClassAbilities(AdventureMixin):
                                 c=bold(ctx.author.display_name), bless=self.emojis.skills.bless
                             ),
                     )
-                    elif textrollC == 10:
+                    else:
                         await smart_embed(
                             ctx,
                             _("{bless} As {c} chants, shadowy aura spews out from the ground, cloaking their party members in a ghostly aura... {bless}").format(
