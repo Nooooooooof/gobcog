@@ -830,12 +830,22 @@ class ClassAbilities(AdventureMixin):
                     c.heroclass["ability"] = True
                     c.heroclass["cooldown"] = time.time() + cooldown_time
                     await self.config.user(ctx.author).set(await c.to_json(ctx, self.config))
-                    await smart_embed(
+                    textroll = random.randint (1,2)
+                        if textroll = 1
+                        await smart_embed(
+                            ctx,
+                            _("{skill} {c} is starting to froth at the mouth... {skill}").format(
+                                c=bold(ctx.author.display_name),
+                                skill=self.emojis.skills.berserker,
+                            ),
+                    )
+                        elif roll = 2,
+                        await smartembed(
                         ctx,
-                        _("{skill} {c} is starting to froth at the mouth... {skill}").format(
-                            c=bold(ctx.author.display_name),
-                            skill=self.emojis.skills.berserker,
-                        ),
+                            _("{skill} {c}'s blood surges as they enter a frenzy... {skill}").format(
+                                c=bold(ctx.author.display_name),
+                                skill=self.emojis.skills.berserker
+                            ), 
                     )
                 else:
                     cooldown_time = c.heroclass["cooldown"] - time.time()
