@@ -586,28 +586,28 @@ class ClassAbilities(AdventureMixin):
                     c.heroclass["cooldown"] = time.time() + cooldown_time
                     await self.config.user(ctx.author).set(await c.to_json(ctx, self.config))
                     textrollC = random.randint (1,10)
-                    if textrollC == 1 or 5:
+                    if textrollC == 1 or textrollC == 5:
                         await smart_embed(
                             ctx,
                             _("{bless} {c} is starting an inspiring sermon. {bless}").format(
                                 c=bold(ctx.author.display_name), bless=self.emojis.skills.bless
                             ),
                     )
-                    elif textrollC == 2 or 6:
+                    elif textrollC == 2 or textrollC == 6:
                         await smart_embed(
                             ctx,
                             _("{bless} Light shines down from the heavens as {c}'s prayer is heard... {bless}").format(
                                 c=bold(ctx.author.display_name), bless=self.emojis.skills.bless
                             ),
                     )
-                    elif textrollC == 3 or 7 or 9:
+                    elif textrollC == 3 or textrollC == 7 or textrollC == 9:
                         await smart_embed(
                             ctx,
                             _("{bless} {c} begins to glow, and a holy aura surrounds their party members... {bless}").format(
                                 c=bold(ctx.author.display_name), bless=self.emojis.skills.bless
                             ),
                     )
-                    elif textrollC == 4 or 8:
+                    elif textrollC == 4 or textrollC == 8:
                         await smart_embed(
                             ctx,
                             _("{bless} {c} bestows an ancient god's grace on their party... {bless}").format(
