@@ -585,13 +585,43 @@ class ClassAbilities(AdventureMixin):
                     c.heroclass["ability"] = True
                     c.heroclass["cooldown"] = time.time() + cooldown_time
                     await self.config.user(ctx.author).set(await c.to_json(ctx, self.config))
-
-                    await smart_embed(
-                        ctx,
-                        _("{bless} {c} is starting an inspiring sermon. {bless}").format(
-                            c=bold(ctx.author.display_name), bless=self.emojis.skills.bless
-                        ),
+                    textrollC = random.randint (1,10)
+                    if textrollC == 1 or 5:
+                        await smart_embed(
+                            ctx,
+                            _("{bless} {c} is starting an inspiring sermon. {bless}").format(
+                                c=bold(ctx.author.display_name), bless=self.emojis.skills.bless
+                            ),
                     )
+                    if textrollC == 2 or 6:
+                        await smart_embed(
+                            ctx,
+                            _("{bless} Light shines down from the heavens as {c}'s prayer is heard... {bless}").format(
+                                c=bold(ctx.author.display_name), bless=self.emojis.skills.bless
+                            ),
+                    )
+                    if textrollC == 3 or 7 or 9:
+                        await smart_embed(
+                            ctx,
+                            _("{bless} {c} begins to glow, and a holy aura surrounds their party members... {bless}").format(
+                                c=bold(ctx.author.display_name), bless=self.emojis.skills.bless
+                            ),
+                    )
+                    if textrollC == 4 or 8:
+                        await smart_embed(
+                            ctx,
+                            _("{bless} {c} bestows an ancient god's grace on their party... {bless}").format(
+                                c=bold(ctx.author.display_name), bless=self.emojis.skills.bless
+                            ),
+                    )
+                    if textrollC == 10:
+                        await smart_embed(
+                            ctx,
+                            _("{bless} As {c} chants, shadowy aura spews out from the ground, cloaking their party members in a ghostly aura... {bless}").format(
+                                c=bold(ctx.author.display_name), bless=self.emojis.skills.bless
+                            ),
+                    )
+                    
                 else:
                     cooldown_time = c.heroclass["cooldown"] - time.time()
                     return await smart_embed(
