@@ -593,28 +593,28 @@ class ClassAbilities(AdventureMixin):
                                 c=bold(ctx.author.display_name), bless=self.emojis.skills.bless
                             ),
                     )
-                    if textrollC == 2 or 6:
+                    elif textrollC == 2 or 6:
                         await smart_embed(
                             ctx,
                             _("{bless} Light shines down from the heavens as {c}'s prayer is heard... {bless}").format(
                                 c=bold(ctx.author.display_name), bless=self.emojis.skills.bless
                             ),
                     )
-                    if textrollC == 3 or 7 or 9:
+                    elif textrollC == 3 or 7 or 9:
                         await smart_embed(
                             ctx,
                             _("{bless} {c} begins to glow, and a holy aura surrounds their party members... {bless}").format(
                                 c=bold(ctx.author.display_name), bless=self.emojis.skills.bless
                             ),
                     )
-                    if textrollC == 4 or 8:
+                    elif textrollC == 4 or 8:
                         await smart_embed(
                             ctx,
                             _("{bless} {c} bestows an ancient god's grace on their party... {bless}").format(
                                 c=bold(ctx.author.display_name), bless=self.emojis.skills.bless
                             ),
                     )
-                    if textrollC == 10:
+                    elif textrollC == 10:
                         await smart_embed(
                             ctx,
                             _("{bless} As {c} chants, shadowy aura spews out from the ground, cloaking their party members in a ghostly aura... {bless}").format(
