@@ -831,7 +831,7 @@ class ClassAbilities(AdventureMixin):
                     c.heroclass["cooldown"] = time.time() + cooldown_time
                     await self.config.user(ctx.author).set(await c.to_json(ctx, self.config))
                     textroll = random.randint (1,2)
-                    if textroll == 1
+                    if textroll == 1,
                         await smart_embed(
                             ctx,
                             _("{skill} {c} is starting to froth at the mouth... {skill}").format(
