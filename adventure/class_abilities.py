@@ -892,8 +892,8 @@ class ClassAbilities(AdventureMixin):
                     c.heroclass["cooldown"] = time.time() + cooldown_time
 
                     await self.config.user(ctx.author).set(await c.to_json(ctx, self.config))
-                    textroll = random.randint (1,4)
-                    if textroll == 1:
+                    textrollA = random.randint (1,4)
+                    if textrollA == 1:
                         await smart_embed(
                             ctx,
                             _("{skill} {c} is focusing all of their energy... {skill}").format(
@@ -901,7 +901,7 @@ class ClassAbilities(AdventureMixin):
                                 skill=self.emojis.skills.wizzard,
                             ),
                     )
-                    if textroll == 2:
+                    if textrollA == 2:
                         await smart_embed(
                             ctx,
                             _("{skill} Casting circles begin to appear around {c}... {skill}").format(
@@ -909,7 +909,7 @@ class ClassAbilities(AdventureMixin):
                                 skill=self.emojis.skills.wizzard,
                             ),
                     )
-                    if textroll == 3:
+                    if textrollA == 3:
                         await smart_embed(
                             ctx,
                             _("{skill} {c} begins to chant in an arcane tongue... {skill}").format(
@@ -917,7 +917,7 @@ class ClassAbilities(AdventureMixin):
                                 skill=self.emojis.skills.wizzard,
                             ),
                     )
-                    if textroll == 4:
+                    if textrollA == 4:
                         await smart_embed(
                             ctx,
                             _("{skill} {c}'s eyes glow as the heavens rumble... {skill}").format(
