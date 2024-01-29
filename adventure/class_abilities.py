@@ -840,7 +840,7 @@ class ClassAbilities(AdventureMixin):
                             ),
                     )
                     elif textroll == 2:
-                        await smartembed(
+                        await smart_embed(
                             ctx,
                             _("{skill} {c}'s blood surges as they enter a frenzy... {skill}").format(
                                 c=bold(ctx.author.display_name),
