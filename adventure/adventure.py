@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+    # -*- coding: utf-8 -*-
 import asyncio
 import contextlib
 import json
@@ -902,7 +902,7 @@ class Adventure(
                 "but **a{attr} {chall}** "
                 "just landed in front of you glaring! \n\n"
                 "What will you do and will other heroes be brave enough to help you?\n"
-                "Heroes have 5 minutes to participate via reaction:"
+                "Heroes have 2 minutes to participate via reaction:"
                 "\n\nReact with: {reactions}"
             ).format(
                 attr=session.attribute,
@@ -912,7 +912,7 @@ class Adventure(
             basilisk_text = _(
                 "but **a{attr} {chall}** stepped out looking around. \n\n"
                 "What will you do and will other heroes help your cause?\n"
-                "Heroes have 3 minutes to participate via reaction:"
+                "Heroes have 2 minutes to participate via reaction:"
                 "\n\nReact with: {reactions}"
             ).format(
                 attr=session.attribute,
@@ -967,7 +967,7 @@ class Adventure(
         else:
             embed = discord.Embed(colour=discord.Colour.blurple())
             use_embeds = await self.config.guild(ctx.guild).embed() and ctx.channel.permissions_for(ctx.me).embed_links
-            timeout = 60 * 3
+            timeout = 60 * 2
             obscured_text = _(
                 "What will you do and will other heroes help your cause?\n"
                 "Heroes have {time} minutes to participate via reaction:"
