@@ -79,8 +79,8 @@
         {"parts": 10, "att": 2000, "cha": 0, "int": 1000, "dex": 50, "luck": 50, "statmult": 1.25, "xpmult": 1.0, "cpmult": 1.0}
     ],
     "High Emperor": [
-        {"parts": 3, "att": 0, "cha": 1000, "int": 0, "dex": 0, "luck": 50, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
-        {"parts": 7, "att": 0, "cha": 2000, "int": 0, "dex": 0, "luck": 50, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
-        {"parts": 10, "att": 1000, "cha": 2000, "int": 0, "dex": 50, "luck": 50, "statmult": 1.25, "xpmult": 1.0, "cpmult": 1.0}
+        {"parts": 3, "att": 0, "cha": 1000, "int": 0, "dex": 100, "luck": 100, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
+        {"parts": 7, "att": 0, "cha": 2000, "int": 0, "dex": 200, "luck": 100, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
+        {"parts": 10, "att": 1000, "cha": 2000, "int": 0, "dex": 200, "luck": 200, "statmult": 1.25, "xpmult": 1.0, "cpmult": 1.0}
     ]
 }
