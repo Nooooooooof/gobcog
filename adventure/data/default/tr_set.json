@@ -12,7 +12,7 @@
     "Billion Blades": {"slot": ["left"], "set": "The Supreme One", "parts": 11, "att": 80, "cha": 80, "int": 80, "dex": 80, "luck": 80, "rarity": "set"},
     "Holy Grail": {"slot": ["right"], "set": "The Supreme One", "parts": 11, "att": 80, "cha": 80, "int": 80, "dex": 80, "luck": 80, "rarity": "set"},
 
-    "Belt Of Ainz Ooal Gown": {"slot": ["belt"], "set": "Ainz Ooal Gown", "parts": 10, "att": 80, "cha": 80, "int": 80, "dex": 80, "luck": 80, "rarity": "set"},
+    "Belt Of Ainz Ooal Gown": {"slot": ["belt"], "set": "Ainz Ooal Gown", "parts": 10, "att":40, "cha": 40, "int": 40, "dex": 40, "luck": 40, "rarity": "set"},
     "Boots Of Ainz Ooal Gown": {"slot": ["boots"], "set": "Ainz Ooal Gown", "parts": 10, "att": 40, "cha": 40, "int": 40, "dex": 40, "luck": 40, "rarity": "set"},
     "Crown Of Ainz Ooal Gown": {"slot": ["head"], "set": "Ainz Ooal Gown", "parts": 10, "att": 40, "cha": 40, "int": 40, "dex": 40, "luck": 40, "rarity": "set"},
     "Gauntlets Of Ainz Ooal Gown": {"slot": ["gloves"], "set": "Ainz Ooal Gown", "parts": 10, "att": 40, "cha": 40, "int": 40, "dex": 40, "luck": 40, "rarity": "set"},
