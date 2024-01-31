@@ -877,7 +877,7 @@ class ClassAbilities(AdventureMixin):
                                 skill=self.emojis.skills.berserker
                             ), 
                     )
-                    elif textroll == 3 or textroll == 7 == 9:
+                    elif textroll == 3 or textroll == 7 or textroll == 9:
                         await smart_embed(
                             ctx,
                             _("{skill} {c}'s ancestral blood begins to simmer... {skill}").format(
@@ -1062,7 +1062,7 @@ class ClassAbilities(AdventureMixin):
                     elif textrollB == 10:
                         await smart_embed(
                             ctx,
-                            _("{skill} {c} prepares himself to use the most powerful skill a bard can use:「Power Word: Kill」... {skill}").format(
+                            _("{skill} {c} prepares to use the most powerful skill a available:「Power Word: Kill」... {skill}").format(
                                 c=bold(ctx.author.display_name), skill=self.emojis.skills.bard
                             ),
                     )
