@@ -149,6 +149,16 @@
         "miniboss": {},
         "color": ""
     },
+    "Ascended Kraken": {
+        "hp": 1000.0,
+        "pdef": 2.2,
+        "mdef": 1.8,
+        "dipl": 1000000000,
+        "image": "https://www.dndbeyond.com/avatars/thumbnails/30832/215/1000/1000/638063833096065593.png",
+        "boss": true,
+        "miniboss": {},
+        "color": ""
+    },
     "Ascended Bandit": {
         "hp": 501.75,
         "pdef": 1.2,
@@ -1169,6 +1179,16 @@
         "miniboss": {},
         "color": ""
     },
+    "Ascended Elder Lich": {
+        "hp": 1000,
+        "pdef": 99.0,
+        "mdef": 2.2,
+        "dipl": 1800,
+        "image": "https://angrygolem-games.com/wp-content/uploads/2023/10/Lich.jpg",
+        "boss": true,
+        "miniboss": {},
+        "color": ""
+    },
     "Ascended Carved Totem": {
         "hp": 522.5,
         "pdef": 1.63,
@@ -1216,6 +1236,16 @@
         "dipl": 524.0,
         "image": "https://cdn.pixabay.com/photo/2017/01/10/13/29/creature-1969074_960_720.png",
         "boss": false,
+        "miniboss": {},
+        "color": ""
+    },
+    "Ascended Tarrasque": {
+        "hp": 1000.0,
+        "pdef": 1.8,
+        "mdef": 99.0,
+        "dipl": 2200.0,
+        "image": "https://www.dndbeyond.com/avatars/thumbnails/30836/117/1000/1000/638063929008461547.png",
+        "boss": true,
         "miniboss": {},
         "color": ""
     },
