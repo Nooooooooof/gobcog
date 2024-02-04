@@ -127,7 +127,7 @@
     "King Solomons Belt": {"slot": ["belt"], "set": "The King of Mages", "parts": 9, "att": 0, "cha": 0, "int": 200, "dex": 100, "luck": 100, "rarity": "set"},
     "King Solomons Lower Robe": {"slot": ["legs"], "set": "The King of Mages", "parts": 9, "att": 0, "cha": 0, "int": 200, "dex": 100, "luck": 100, "rarity": "set"},
     "King Solomons Shoes": {"slot": ["boots"], "set": "The King of Mages", "parts": 9, "att": 0, "cha": 0, "int": 200, "dex": 100, "luck": 100, "rarity": "set"},
-    "King Solomons 10 Rings": {"slot": ["left", "right"], "set": "The King of Mages","parts": 9, "att": 0, "cha": 0, "int": 200, "dex": 100, "luck": 100, "rarity": "set"},
+    "King Solomons 10 Rings": {"slot": ["left", "right"], "set": "The King of Mages","parts": 9, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
     "King Solomons Markings": {"slot": ["charm"], "set": "The King of Mages", "parts": 9, "att": 0, "cha": 0, "int": 200, "dex": 100, "luck": 100, "rarity": "set"},
 
     "King Titan Galea": {"slot": ["head"], "set": "King Titan", "parts": 10, "att": 200, "cha": 0, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
