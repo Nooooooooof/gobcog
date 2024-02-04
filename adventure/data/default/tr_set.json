@@ -145,14 +145,14 @@
     "King Titan Chains": {"slot": ["charm"], "set": "King Titan", "parts": 11, "att": 200, "cha": 0, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
 
     "High Emperors Crest": {"slot": ["head"], "set": "High Emperor", "parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
-    "High Emperors Teardrop": {"slot": ["neck"], "set": "High Emperor", "parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
+    "Emperors Tear": {"slot": ["neck"], "set": "High Emperor", "parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
     "High Emperors Regalia": {"slot": ["chest"], "set": "High Emperor", "parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
     "High Emperors Grasp": {"slot": ["gloves"], "set": "High Emperor", "parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
-    "High Emperors Embrace": {"slot": ["belt"], "set": "High Emperor", "parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
+    "Basileus Embrace": {"slot": ["belt"], "set": "High Emperor", "parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
     "High Emperors Sovereign Plates": {"slot": ["legs"], "set": "High Emperor", "parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
     "High Emperors Grace": {"slot": ["boots"], "set": "High Emperor", "parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
-    "High Emperors Honor": {"slot": ["right"], "set": "High Emperor","parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
-    "High Emperors Guard": {"slot": ["left"], "set": "High Emperor","parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
+    "Basileus Honor": {"slot": ["right"], "set": "High Emperor","parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
+    "Basileus Guard": {"slot": ["left"], "set": "High Emperor","parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
     "High Emperors Authority": {"slot": ["ring"], "set": "High Emperor","parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
-    "High Emperors Love": {"slot": ["charm"], "set": "High Emperor", "parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"}
+    "Basileus Love": {"slot": ["charm"], "set": "High Emperor", "parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"}
 }
