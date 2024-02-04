@@ -69,18 +69,18 @@
         {"parts": 6, "att": -50, "cha": 150, "int": 25, "dex": 25, "luck": 25, "statmult": 1.15, "xpmult": 1.1, "cpmult": 1.0}
     ],
     "The King of Mages": [
-        {"parts": 3, "att": 0, "cha": 0, "int": 1000, "dex": 200, "luck": 300, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
-        {"parts": 6, "att": 0, "cha": 0, "int": 1000, "dex": 300, "luck": 300, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
-        {"parts": 9, "att": 0, "cha": 1000, "int": 2000, "dex": 300, "luck": 300, "statmult": 1.25, "xpmult": 1.0, "cpmult": 1.0}
+        {"parts": 3, "att": 0, "cha": 0, "int": 500, "dex": 200, "luck": 300, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
+        {"parts": 6, "att": 0, "cha": 0, "int": 500, "dex": 300, "luck": 300, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
+        {"parts": 9, "att": 0, "cha": 1000, "int": 1000, "dex": 300, "luck": 300, "statmult": 1.25, "xpmult": 1.0, "cpmult": 1.0}
     ],
     "King Titan": [
-        {"parts": 3, "att": 1000, "cha": 0, "int": 0, "dex": 200, "luck": 200, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
-        {"parts": 7, "att": 1000, "cha": 0, "int": 0, "dex": 200, "luck": 200, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
-        {"parts": 10, "att": 2000, "cha": 0, "int": 1000, "dex": 300, "luck": 300, "statmult": 1.25, "xpmult": 1.0, "cpmult": 1.0}
+        {"parts": 3, "att": 500, "cha": 0, "int": 0, "dex": 200, "luck": 200, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
+        {"parts": 7, "att": 500, "cha": 0, "int": 0, "dex": 200, "luck": 200, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
+        {"parts": 10, "att": 1000, "cha": 0, "int": 1000, "dex": 300, "luck": 300, "statmult": 1.25, "xpmult": 1.0, "cpmult": 1.0}
     ],
     "High Emperor": [
-        {"parts": 3, "att": 0, "cha": 1000, "int": 0, "dex": 200, "luck": 200, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
-        {"parts": 7, "att": 0, "cha": 1000, "int": 0, "dex": 300, "luck": 300, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
-        {"parts": 10, "att": 1000, "cha": 2000, "int": 0, "dex": 300, "luck": 300, "statmult": 1.25, "xpmult": 1.0, "cpmult": 1.0}
+        {"parts": 3, "att": 0, "cha": 500, "int": 0, "dex": 200, "luck": 200, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
+        {"parts": 7, "att": 0, "cha": 500, "int": 0, "dex": 300, "luck": 300, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
+        {"parts": 10, "att": 1000, "cha": 1000, "int": 0, "dex": 300, "luck": 300, "statmult": 1.25, "xpmult": 1.0, "cpmult": 1.0}
     ]
 }
