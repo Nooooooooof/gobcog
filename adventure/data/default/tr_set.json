@@ -165,7 +165,7 @@
     "Morganas Spite": {"slot": ["belt"], "set": "Morganas Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
     "Morganas Envy": {"slot": ["legs"], "set": "Morganas Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
     "Morganas Shackles": {"slot": ["boots"], "set": "Morganas Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
-    "Staff Of Avalon": {"slot": ["right", "left"], "set": "Morganas Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
+    "Staff Of Avalon": {"slot": ["right", "left"], "set": "Morganas Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 50, "dex": 25, "luck": 25, "rarity": "set"},
     "Morganas Soul": {"slot": ["ring"], "set": "Morganas Vengeance","parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
     "Morganas Wisdom": {"slot": ["charm"], "set": "Morganas Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
 
@@ -176,7 +176,7 @@
     "Zuriels Virtue": {"slot": ["belt"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
     "Arachnes Dexterity": {"slot": ["legs"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
     "Hermes Winged Shoes": {"slot": ["boots"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
-    "Uriels Judgement": {"slot": ["right", "left"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
+    "Uriels Judgement": {"slot": ["right", "left"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 50, "int": 0, "dex": 25, "luck": 25, "rarity": "set"},
     "Amitiels Truth": {"slot": ["ring"], "set": "Messenger of God","parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
     "Buddhas Lotus": {"slot": ["charm"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"}
 }
