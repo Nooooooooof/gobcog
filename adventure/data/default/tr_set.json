@@ -156,5 +156,27 @@
     "Basileus Honor": {"slot": ["right"], "set": "High Emperor","parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
     "Basileus Guard": {"slot": ["left"], "set": "High Emperor","parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
     "High Emperors Authority": {"slot": ["ring"], "set": "High Emperor","parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
-    "Basileus Love": {"slot": ["charm"], "set": "High Emperor", "parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"}
+    "Basileus Love": {"slot": ["charm"], "set": "High Emperor", "parts": 11, "att": 0, "cha": 200, "int": 0, "dex": 100, "luck": 100, "rarity": "set"},
+
+    "Morgana's Grace": {"slot": ["head"], "set": "Morgana's Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
+    "Morgana's Elegance": {"slot": ["neck"], "set": "Morgana's Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
+    "Morgana's Fury": {"slot": ["chest"], "set": "Morgana's Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
+    "Morgana's Torment": {"slot": ["gloves"], "set": "Morgana's Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
+    "Morgana's Spite": {"slot": ["belt"], "set": "Morgana's Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
+    "Morgana's Envy": {"slot": ["legs"], "set": "Morgana's Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
+    "Morgana's Shackles": {"slot": ["boots"], "set": "Morgana's Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
+    "Staff Of Avalon": {"slot": ["right", "left"], "set": "Morgana's Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
+    "Morgana's Soul": {"slot": ["ring"], "set": "Morgana's Vengeance","parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
+    "Morgana's Wisdom": {"slot": ["charm"], "set": "Morgana's Vengeance", "parts": 10, "att": 0, "cha": 0, "int": 100, "dex": 50, "luck": 50, "rarity": "set"},
+
+    "Adathan's Blessing": {"slot": ["head"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
+    "Thoth's Knowledge": {"slot": ["neck"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
+    "Michael's Protection": {"slot": ["chest"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
+    "Verchiel's Might": {"slot": ["gloves"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
+    "Zuriel's Virtue": {"slot": ["belt"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
+    "Arachne's Dexterity": {"slot": ["legs"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
+    "Hermes' Winged Shoes": {"slot": ["boots"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
+    "Uriel's Judgement": {"slot": ["right", "left"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
+    "Amitiel's Truth": {"slot": ["ring"], "set": "Messenger of God","parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
+    "Buddha's Lotus": {"slot": ["charm"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"}
 }

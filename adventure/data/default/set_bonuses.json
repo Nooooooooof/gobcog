@@ -18,8 +18,9 @@
         {"parts": 5, "att": 0, "cha": 0, "int": 0, "dex": 0, "luck": 20, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0}
     ],
     "Titan": [
-        {"parts": 4, "att": 50, "cha": 0, "int": 0, "dex": -10, "luck": 0, "statmult": 1.0, "xpmult": 0.9, "cpmult": 0.9},
-        {"parts": 8, "att": 80, "cha": 0, "int": 0, "dex": -10, "luck": 0, "statmult": 1.0, "xpmult": 0.9, "cpmult": 1.0}
+        {"parts": 3, "att": 250, "cha": 0, "int": 0, "dex": 150, "luck": 150, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
+        {"parts": 7, "att": 250, "cha": 0, "int": 0, "dex": 150, "luck": 150, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
+        {"parts": 10, "att": 500, "cha": 0, "int": 500, "dex": 150, "luck": 150, "statmult": 1.25, "xpmult": 1.0, "cpmult": 1.0}
 
     ],
     "World Breaker": [
@@ -72,6 +73,16 @@
         {"parts": 3, "att": 0, "cha": 0, "int": 500, "dex": 200, "luck": 300, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
         {"parts": 7, "att": 0, "cha": 0, "int": 500, "dex": 300, "luck": 300, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
         {"parts": 11, "att": 0, "cha": 1000, "int": 1000, "dex": 300, "luck": 300, "statmult": 1.25, "xpmult": 1.0, "cpmult": 1.0}
+    ],
+    "Morgana's Vengeance": [
+        {"parts": 3, "att": 0, "cha": 0, "int": 250, "dex": 100, "luck": 150, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
+        {"parts": 7, "att": 0, "cha": 0, "int": 250, "dex": 150, "luck": 150, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
+        {"parts": 10, "att": 0, "cha": 500, "int": 500, "dex": 150, "luck": 150, "statmult": 1.25, "xpmult": 1.0, "cpmult": 1.0}
+    ],
+    "Messenger of God": [
+        {"parts": 3, "att": 0, "cha": 250, "int": 0, "dex": 100, "luck": 150, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
+        {"parts": 7, "att": 0, "cha": 250, "int": 0, "dex": 150, "luck": 150, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
+        {"parts": 10, "att": 500, "cha": 500, "int": 0, "dex": 150, "luck": 150, "statmult": 1.25, "xpmult": 1.0, "cpmult": 1.0}
     ],
     "King Titan": [
         {"parts": 3, "att": 500, "cha": 0, "int": 0, "dex": 200, "luck": 200, "statmult": 1.0, "xpmult": 1.0, "cpmult": 1.0},
