@@ -721,7 +721,7 @@ class ClassAbilities(AdventureMixin):
                             magic_roll = 0.6
                             diplo_roll = 0.4
 
-                        if roll == 1:
+                        if roll >= 0.95:
                             hp = int(hp * self.ATTRIBS[session.attribute][0] * session.monster_stats)
                             dipl = int(diplo * self.ATTRIBS[session.attribute][1] * session.monster_stats)
                             msg += _(
@@ -738,7 +738,7 @@ class ClassAbilities(AdventureMixin):
                                 else f"{self.emojis.skills.psychic}",
                             )
                             self._sessions[ctx.guild.id].exposed = True
-                        elif roll >= 0.95:
+                        elif roll >= 0.85:
                             hp = hp * self.ATTRIBS[session.attribute][0] * session.monster_stats
                             dipl = diplo * self.ATTRIBS[session.attribute][1] * session.monster_stats
                             msg += _(
@@ -752,7 +752,7 @@ class ClassAbilities(AdventureMixin):
                                 dipl=humanize_number(int(dipl)),
                             )
                             self._sessions[ctx.guild.id].exposed = True
-                        elif roll >= 0.90:
+                        elif roll >= 0.75:
                             hp = hp * self.ATTRIBS[session.attribute][0] * session.monster_stats
                             msg += _("This monster is **a{attr} {challenge}** ({hp_symbol} {hp}).\n").format(
                                 challenge=session.challenge,
@@ -761,7 +761,7 @@ class ClassAbilities(AdventureMixin):
                                 hp=humanize_number(int(hp)),
                             )
                             self._sessions[ctx.guild.id].exposed = True
-                        elif roll > 0.75:
+                        elif roll > 0.6:
                             msg += _("This monster is **a{attr} {challenge}**.\n").format(
                                 challenge=session.challenge,
                                 attr=session.attribute,
