@@ -353,11 +353,7 @@ class Character:
             if any(x in self.sets for x in ["The Supreme One", "Ainz Ooal Gown"]) and self.heroclass["pet"]["name"] in [
                 "Albedo",
                 "Rubedo",
-            ]:
-                return
-            elif any(x in self.sets for x in ["High Emperor"]) and self.heroclass["pet"]["name"] in [
                 "Guardians of Nazarick",
-               
             ]:
                 return
 
