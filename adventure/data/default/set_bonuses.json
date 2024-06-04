@@ -95,6 +95,6 @@
         {"parts": 10, "att": 1000, "cha": 1000, "int": 0, "dex": 300, "luck": 300, "statmult": 1.25, "xpmult": 1.0, "cpmult": 1.0}
     ],
     "Book of the Dead": [
-        {"parts": 1, "att": 200, "cha": 200, "int": 200, "dex": 0, "luck": -300, "statmult": 1.4, "xpmult": 1.0, "cpmult": 0.2}
+        {"parts": 1, "att": 200, "cha": 200, "int": 200, "dex": -1500, "luck": -1500, "statmult": 1.4, "xpmult": 1.0, "cpmult": 0.2}
     ]
 }

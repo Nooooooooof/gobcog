@@ -180,5 +180,5 @@
     "Amitiels Truth": {"slot": ["ring"], "set": "Messenger of God","parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
     "Buddhas Lotus": {"slot": ["charm"], "set": "Messenger of God", "parts": 10, "att": 0, "cha": 100, "int": 0, "dex": 50, "luck": 50, "rarity": "set"},
 
-    "Necronomicon": {"slot": ["left"], "set": "Book of the Dead", "parts": 1, "att": 300, "cha": 300, "int": 300, "dex": -200, "luck": -200, "rarity": "set"}
+    "Necronomicon": {"slot": ["left"], "set": "Book of the Dead", "parts": 1, "att": 200, "cha": 200, "int": 200, "dex": -200, "luck": -200, "rarity": "set"}
 }
